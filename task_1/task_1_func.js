@@ -3,15 +3,15 @@ function YourFavMovie(){
     while (true){
         let question = prompt('Какой ваш любимый фильм?');
         if (question == movie){
-            alert('Ваш любимый фильм - ' + movie)
-            break
+            alert('Ваш любимый фильм - ' + movie);
+            break;
         }
         else if (question == null){
-            alert('Ждем вас снова!')
-            break
+            alert('Ждем вас снова!');
+            break;
         }
         else{
-            alert("Попробуйте ещё раз")
+            alert("Попробуйте ещё раз");
         }
     }  
 }
